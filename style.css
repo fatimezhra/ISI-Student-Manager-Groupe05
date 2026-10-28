@@ -1,4 +1,9 @@
+/* ==========================================================
+   style.css - ISI Student Manager (Groupe 05)
+   Pages : index.php, etudiants.php, projets.php
+   ========================================================== */
 
+/* ---------- Variables ---------- */
 :root {
   --bleu: #1e4fa3;
   --bleu-fonce: #153a78;
