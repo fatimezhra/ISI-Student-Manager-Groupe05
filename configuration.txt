@@ -1,5 +1,4 @@
-#
- configuration.txt
+# configuration.txt
 Nom du projet : ISI Student Manager
 Version : 3.0 - Version collaborative
 Responsable : Groupe ISI
