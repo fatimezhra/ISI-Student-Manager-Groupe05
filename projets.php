@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Liste des projets</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Liste des projets</h1>
@@ -15,7 +16,7 @@
     ];
     ?>
 
-    <table border="1">
+    <table>
         <tr>
             <th>Projet</th>
             <th>Responsable</th>
