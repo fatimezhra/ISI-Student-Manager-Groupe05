@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Liste des étudiants</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Liste des étudiants</h1>
@@ -15,7 +16,7 @@
     ];
     ?>
 
-    <table border="1">
+    <table>
         <tr>
             <th>Nom</th>
             <th>Filière</th>
