@@ -90,6 +90,17 @@ git branch -a
 
 Sur GitHub : onglet **Insights → Network**.
 
+## Captures d'écran
+
+### Page d'accueil
+![Page d'accueil](images/accueil.png)
+
+### Liste des étudiants
+![Liste des étudiants](images/etudiants.png)
+
+### Liste des projets
+![Liste des projets](images/projets.png)
+
 ## Tâches réalisées
 
 - [x] Initialisation du dépôt et page d'accueil
