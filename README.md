@@ -10,10 +10,10 @@ Université Cadi Ayyad – Faculté des Sciences Semlalia, Marrakech – ISI-S6.
 
 | Membre | Compte GitHub | Contribution |
 |---|---|---|
-| NOM Prénom | [fatimezhra](https://github.com/fatimezhra) | Propriétaire du dépôt, page d'accueil, configuration, intégration |
-| NOM Prénom | [zainab20zahid-hash](https://github.com/zainab20zahid-hash) | Page des étudiants |
-| NOM Prénom | [fatimazahrabaali](https://github.com/fatimazahrabaali) | Version 3.0 (étudiant C) |
-| NOM Prénom | [aziza-halmaouy](https://github.com/aziza-halmaouy) | Mise en forme (`style.css`) |
+| Khalil Fatima Ezzahra | [fatimezhra](https://github.com/fatimezhra) | Propriétaire du dépôt, page d'accueil, configuration, intégration |
+| Zainab Zahid | [zainab20zahid-hash](https://github.com/zainab20zahid-hash) | Page des étudiants |
+| Fatima Ezzahra Baali | [fatimazahrabaali](https://github.com/fatimazahrabaali) | Version 3.0 (étudiant C) |
+| Aziza Halmaouy | [aziza-halmaouy](https://github.com/aziza-halmaouy) | Mise en forme (`style.css`) |
 
 ## Prérequis
 
