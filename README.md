@@ -93,13 +93,13 @@ Sur GitHub : onglet **Insights → Network**.
 ## Captures d'écran
 
 ### Page d'accueil
-![Page d'accueil](images/accueil.png)
+![Page d'accueil](images/accueil.jpg)
 
 ### Liste des étudiants
-![Liste des étudiants](images/etudiants.png)
+![Liste des étudiants](images/etudiants.jpg)
 
 ### Liste des projets
-![Liste des projets](images/projets.png)
+![Liste des projets](images/projets.jpg)
 
 ## Tâches réalisées
 
