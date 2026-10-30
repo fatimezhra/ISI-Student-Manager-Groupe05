@@ -34,6 +34,13 @@ Clonage en HTTPS si SSH n'est pas configuré :
 ```bash
 git clone https://github.com/fatimezhra/ISI-Student-Manager-Groupe05.git
 ```
+### 3. Explication des notions Git
+
+- **clone :** permet de copier un dépôt distant GitHub sur notre ordinateur afin de travailler localement.
+- **origin :** est le nom par défaut donné au dépôt distant GitHub.
+- **main :** est la branche principale du projet dans le dépôt local.
+- **origin/main :** représente la branche principale du dépôt distant, telle qu'elle a été récupérée lors du dernier échange avec GitHub.
+- **HEAD :** est un pointeur qui indique la position actuelle dans Git, généralement la branche sur laquelle on travaille.
 
 ## Exécution
 
