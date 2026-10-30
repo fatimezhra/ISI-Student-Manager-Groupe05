@@ -137,7 +137,7 @@ Sur GitHub : onglet Insights, puis Network.
 
 ### Liste des branches
 
-[Liste des branches](https://github.com/fatimezhra/ISI-Student-Manager-Groupe05/blob/main/images/branches.jpeg) ([image](https://github.com/fatimezhra/ISI-Student-Manager-Groupe05/raw/main/images/branches.jpeg))
+![Liste des branches](images/branches.jpg)
 ## Vérification de main et de l'application
 
 ### 1. main est à jour
