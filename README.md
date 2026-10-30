@@ -189,3 +189,4 @@ php -S localhost:8000
 - [x] Historique graphique des commits et des branches
 - [x] Vérification de main et de l'application
 - [x] Documentation (README.md)
+ 
