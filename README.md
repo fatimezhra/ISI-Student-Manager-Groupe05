@@ -11,8 +11,8 @@ Dépôt : https://github.com/fatimezhra/ISI-Student-Manager-Groupe05
 | Rôle | Membre | Compte GitHub | Branche | Contribution |
 |------|--------|---------------|---------|--------------|
 | A | Khalil Fatima Ezzahra | fatimezhra | feature/accueil | Propriétaire du dépôt, page d'accueil, configuration, intégration |
-| B | Zainab Zahid | zainab20zahid-hash | feature/etudiants | Page des étudiants |
-| C | Fatima Ezzahra Baali | fatimazahrabaali | feature/projets | Version 3.0 (étudiant C) |
+| B | Zainab Zahid | zainab20zahid-hash | feature/etudiants | Page des étudiants, version 2.0|
+| C | Fatima Ezzahra Baali | fatimazahrabaali | feature/projets | Page des projets, version 3.0 (conflit) |
 | D | Aziza Halmaouy | aziza-halmaouy | feature/style | Mise en forme (style.css) |
 
 ## Prérequis
@@ -82,6 +82,45 @@ git pull origin main
 
 En cas de conflit : fusionner `main` dans sa branche, résoudre les marqueurs `<<<<<<<` / `>>>>>>>`, puis committer et pousser.
 
+## Exercice 7 : Pull Requests et revue de code
+
+Chaque membre a publié sa branche et ouvert une Pull Request vers `main`. La relecture s'est faite en chaîne (A → B → C → D → A) : chaque Pull Request a reçu au moins un commentaire technique d'un autre membre dans l'onglet Files changed avant d'être fusionnée. Les PR #1 à #4 ont été fusionnées, puis chaque membre a mis à jour son `main` local avec `git pull origin main`.
+
+### Intérêt d'une Pull Request par rapport à un push direct sur main
+
+- **Relecture avant intégration** : un autre membre vérifie le code et détecte erreurs et oublis avant qu'ils n'atteignent `main`.
+- **Branche principale stable** : seul du code validé est fusionné dans `main`.
+- **Traçabilité** : chaque PR conserve la discussion, l'auteur, le relecteur et la date de fusion.
+- **Contrôles automatiques** : la PR permet d'exécuter des analyses (par exemple SonarQube, visible sur nos PR) avant la fusion.
+- **Collaboration** : on discute et on corrige avant la fusion, sans écraser le travail des autres.
+- **Historique lisible** : les merges regroupent les commits d'une même fonctionnalité dans `git log --graph`.
+
+Un push direct sur `main` n'offre aucune de ces garanties : une erreur est publiée immédiatement pour toute l'équipe.
+
+## Exercice 8 : Conflit de fusion contrôlé
+
+Le fichier `configuration.txt` a été publié sur `main` avec la ligne `Version : 1.0`. Deux membres ont ensuite modifié **la même ligne** sur deux branches différentes :
+
+| Membre | Branche | Ligne modifiée |
+|--------|---------|----------------|
+| B | feature/conflit-b | `Version : 2.0 - Etudiant B` |
+| C | feature/config-c | `Version : 3.0 - Etudiant C` |
+
+Lors de la fusion de `main` dans une branche, Git a signalé un conflit sur `configuration.txt` et a inséré les marqueurs `<<<<<<<`, `=======` et `>>>>>>>`. Le conflit a été résolu en gardant une version commune, puis committé et poussé :
+
+    Version : 3.0 - Version collaborative
+
+Les Pull Requests #5 (C) et #6 (B) ont été relues et fusionnées. Une dernière Pull Request (`fix/configuration`) a normalisé le fichier (en-tête sur une seule ligne, sans espaces superflus).
+
+Résultat final de `configuration.txt` :
+
+    # configuration.txt
+    Nom du projet : ISI Student Manager
+    Version : 3.0 - Version collaborative
+    Responsable : Groupe ISI
+
+> Remarque : le fichier initial `configuration.txt` a été publié directement sur `main`, comme l'exige l'énoncé de l'exercice 8. Certaines modifications de ce fichier ont aussi été faites directement sur `main` via l'interface GitHub.
+
 ## Historique des commits et branches
 
 ```bash
@@ -90,6 +129,7 @@ git branch -a
 ```
 
 Sur GitHub : onglet Insights, puis Network.
+
 
 ### Historique graphique
 
